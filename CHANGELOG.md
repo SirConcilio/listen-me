@@ -2,7 +2,7 @@
 
 ## v0.1.2 Music & Radio Update
 
-Stato previsto su GitHub Releases **pre-release**. La pubblicazione è in attesa dell'archivio originale.
+Disponibile come [pre-release Alpha](https://github.com/SirConcilio/listen-me/releases/tag/Alpha), con asset `Listen_Me_v0.1.2_update.zip`. Presenza verificata il 25 novembre 2026; collaudo dell'archivio ancora da eseguire.
 
 - Riorganizzati il layout desktop, il login e il modulo di registrazione con conferma password.
 - Aggiunte ricerca delle radio con Radio Browser, filtro per paese e tre emittenti SomaFM. Il player segnala la diretta all'avvio effettivo dello stream e rimuove la barra di avanzamento.
