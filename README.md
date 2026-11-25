@@ -4,7 +4,7 @@ Piattaforma musicale social per un progetto scolastico, sviluppata in PHP, JavaS
 
 ## v0.1.2 Music & Radio Update
 
-Aggiornamento destinato a una pre-release. Il pacchetto previsto è `Listen_Me_v0.1.2_update.zip`. La pubblicazione in [GitHub Releases](https://github.com/SirConcilio/listen-me/releases) è in attesa dell'archivio originale. Questo repository ospita attualmente la documentazione.
+Aggiornamento destinato a una pre-release. Il pacchetto `Listen_Me_v0.1.2_update.zip` è disponibile nella [pre-release Alpha](https://github.com/SirConcilio/listen-me/releases/tag/Alpha), verificata su GitHub il 25 novembre 2026. L'archivio non è stato riesaminato in questo aggiornamento. Questo repository ospita attualmente la documentazione.
 
 - Interfaccia con menu laterale e più spazio su desktop, layout adattabile agli smartphone, schermata di login dedicata e conferma password in registrazione.
 - Radio Browser per la ricerca di emittenti, con filtro per paese. L'aggiornamento include Groove Salad, Lush e Groove Salad Classic di SomaFM. Il player mostra **In diretta** quando il browser segnala l'avvio dello stream e offre arresto e volume, senza barra di avanzamento.
@@ -13,7 +13,7 @@ Aggiornamento destinato a una pre-release. Il pacchetto previsto è `Listen_Me_v
 
 ## Aggiornamento su XAMPP
 
-Su un'installazione esistente, esegui il backup di cartella e database. Quando il pacchetto sarà disponibile, estrai l'aggiornamento in `C:\xampp\htdocs\` e applicalo alla cartella `listen-me`. L'aggiornamento è progettato per riutilizzare il database esistente senza reimportarlo. Avvia Apache e MySQL e apri `http://localhost/listen-me/`.
+Su un'installazione esistente, esegui il backup di cartella e database. Scarica il pacchetto dalla pre-release Alpha ed estrai l'aggiornamento in `C:\xampp\htdocs\` e applicalo alla cartella `listen-me`. L'aggiornamento è progettato per riutilizzare il database esistente senza reimportarlo. Avvia Apache e MySQL e apri `http://localhost/listen-me/`.
 
 Per attivare la ricerca YouTube e l'integrazione Jamendo, copia `music-config.example.php` in `music-config.local.php` e compila rispettivamente `youtube_api_key` e `jamendo_client_id`. Conserva il file con le credenziali solo in locale, fuori dal repository e dagli archivi da pubblicare. Radio Browser e il player YouTube tramite link non richiedono queste credenziali.
 
@@ -45,4 +45,4 @@ Consulta il [changelog](CHANGELOG.md) per la cronologia delle versioni.
 - [XAMPP](https://www.apachefriends.org/) e [phpMyAdmin](https://www.phpmyadmin.net/): ambiente di test.
 - [Release](https://github.com/SirConcilio/listen-me/releases) e [checklist](https://github.com/SirConcilio/listen-me/issues/1).
 
-Prima di v0.2, pubblicare la pre-release v0.1.2 dopo il caricamento manuale dell'archivio; verificare login, database, dirette, ricerca e player. Definire consenso e visibilità dei dati di ascolto, note e playlist; non contare riproduzioni non confermate e non salvare risultati esterni senza verificare i termini API. Il nome Listen Me resta provvisorio; nessun dominio definitivo confermato.
+Prima di v0.2, collaudare la pre-release v0.1.2 già pubblicata; verificare login, database, dirette, ricerca e player. Definire consenso e visibilità dei dati di ascolto, note e playlist; non contare riproduzioni non confermate e non salvare risultati esterni senza verificare i termini API. Il nome Listen Me resta provvisorio; nessun dominio definitivo confermato.
