@@ -36,3 +36,13 @@ Per attivare la ricerca YouTube e l'integrazione Jamendo, copia `music-config.ex
 - Valutare il salvataggio dei brani esterni nelle playlist secondo le condizioni dei servizi.
 
 Consulta il [changelog](CHANGELOG.md) per la cronologia delle versioni.
+
+## Riferimenti tecnici e prossima verifica — 25 novembre 2026
+
+- [Radio Browser API](https://api.radio-browser.info/) e [SomaFM](https://somafm.com/): catalogo emittenti e dirette, da verificare nel browser senza barra di avanzamento.
+- [YouTube Data API v3](https://developers.google.com/youtube/v3) e [YouTube IFrame Player API](https://developers.google.com/youtube/iframe_api_reference): ricerca e riproduzione incorporata secondo condizioni del servizio.
+- [Jamendo Developer](https://developer.jamendo.com/): ricerca e streaming consentito, verificare licenze e limiti.
+- [XAMPP](https://www.apachefriends.org/) e [phpMyAdmin](https://www.phpmyadmin.net/): ambiente di test.
+- [Release](https://github.com/SirConcilio/listen-me/releases) e [checklist](https://github.com/SirConcilio/listen-me/issues/1).
+
+Prima di v0.2, pubblicare la pre-release v0.1.2 dopo il caricamento manuale dell'archivio; verificare login, database, dirette, ricerca e player. Definire consenso e visibilità dei dati di ascolto, note e playlist; non contare riproduzioni non confermate e non salvare risultati esterni senza verificare i termini API. Il nome Listen Me resta provvisorio; nessun dominio definitivo confermato.
